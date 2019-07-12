@@ -7,6 +7,7 @@
     width: 200px;
     } 
 
+
     .skillbar {
     position: relative;
     display: block;
@@ -39,7 +40,6 @@
 }
 
 .skill-bar-percent {
-    float: right;
     display: inline-block;
     color: #323232;
     font-size: 11px;
@@ -52,6 +52,14 @@
 .wrapper {
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.box{
+    margin: 0 auto;
+    width: 90%;
+    height: 90%;
+    display: block;
+    background: linear-gradient(top, black, white);
+ }
