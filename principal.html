@@ -19,7 +19,10 @@
   
     <div class="container mt-3 ">
         <div class="row">
-            <div class="shadow p-3 mt-3 mb-5 bg-light rounded col-xs-12 col-sm-5 col-md-5 col-lg-4" >
+          
+            
+          
+            <div class="shadow p-3 mt-3 mb-5 bg-light rounded col-xs-12 col-sm-5 col-md-5 col-lg-4 contenedor_izquierdo" >
               
                 <div class="container text-center c">
                     <h2>
@@ -37,35 +40,36 @@
                 </div>
 
                 <br>
+                <div class="card bloqueEnLineas">
 
-                <div class="container text-center card ">
-                     <p>Nombre:<b> Miguel Angel Montoya Villegas</b></p>
-                     <p>Trabajo:<b> Desarrollador Web</b></p>
+                  <div class="container text-center">
+                    <br>
+                    <p>Nombre:<b> Miguel Angel Montoya Villegas</b></p>
+                    <p>Trabajo:<b> Desarrollador Web</b></p>
                      <p class="text-break">Email:<b> villegas4006@gmail.com</b></p>
                      <p class="text-break">GitHub:<b><a href="https://github.com/Villegas-06" target="blank_">
                         https://github.com/Villegas-06</a></b>
-                     </p>
-
+                      </p>
+                      
                      <br> 
 
-                       
-                       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto">
-                        <i class="far fa-address-book">   CONTÁCTAME </i>
-                      </button>
+                     
+                       <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#contacto">
+                         <i class="far fa-address-book">   CONTÁCTAME </i>
+                        </button>
+                        <br>
+                      </div>
+                    </div>
 
-                      
-                      
-
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8"  style="overflow: scroll" >
-                <header class="shadow p-3 mb-5 mt-3 shadow bg-white rounded "  >
-                    <ul class="nav nav-pills nav-fill " >
+        </div>
+            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8">
+                <header class="shadow p-3 mb-5 mt-3 shadow bg-white rounded">
+                    <ul class="nav nav-pills nav-fill">
                         <li class="nav-item card-header">
                             <a class="nav-link " href="#">RESUMEN</a>
                         </li>
                         <li class="nav-item card-header">
-                            <a class="nav-link" href="#">PORTAFOLIO</a>
+                            <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseOne">PORTAFOLIO</a>
                         </li>
                         <li class="nav-item card-header">
                                 <a class="nav-link" href="#">(X)</a>
@@ -79,7 +83,20 @@
                               
                             <div class="accordion card-body" id="accordionExample">
                                 
-                             
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                      <h2 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                          Portafolio.
+                                        </button>
+                                      </h2>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                      </div>
+                                    </div>
+                                  </div>
                                 <div class="card">
                                   <div class="card-header" id="headingTwo">
                                     <h2 class="mb-0">
@@ -165,7 +182,50 @@
 
                             </div>
 
-  
+                            <!-- Extra large modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Extra large modal</button>
+
+<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+
+      <div id="container">
+
+        <div class="card" style="width: 18rem;">
+            <img src="imagenes/logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4>
+                Kalimboor.
+              </h4>
+              <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae odio illo fugit consequuntur iusto ipsam adipisci dolor maiores ex, amet nam repudiandae eveniet et a perferendis! Eos sunt labore dolorum. </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="container">
+              <img id="img" src="imagenes/LogoAPPrendizaje.png" class="card-img-top" alt="...">
+            </div>
+              <div class="card-body">
+                <h4>
+                  APPrendizaje.
+                </h4>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores error, laborum, quasi praesentium maxime veniam, optio quisquam cumque atque voluptatibus dignissimos? Reprehenderit rerum, fugiat quas nemo pariatur amet. Unde, quam.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/logo.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4>
+                    
+                  </h4>
+                  <p class="card-text">Kalimboor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
