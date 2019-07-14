@@ -7,14 +7,27 @@
     width: 200px;
     } 
 
+    #txt{
+        color:#212F3C;
+    }
+
+    #btn{
+        border-color: white;
+        border-block-style: unset;
+    }
+
+    #bg{
+        background-image: linear-gradient(rgb(163, 163, 163),white)
+    }
+
     #img{
         top: 50%;
         left: 50%;
         height: 166px;
     }
 
-    h2{
-        background-color: ;
+    #gradient{
+        background-image: linear-gradient(rgb(185, 185, 185), #ffffff);
     }
 
     #container{
@@ -37,8 +50,6 @@
 }
 
 .skillbar-bar:before {
-    background: #eee;
-    content: "";
     height: 3px;
     position: absolute;
     width: 100%;
@@ -46,15 +57,16 @@
 }
 
 .skillbar-bar {
-    height: 3px;
+    height: 6px;
+    border-radius: 31px 31px 31px 31px; 
     width: 0px;
-    background: #2E86C1;
+    background: #212F3C;
     transition-property: width, background-color;
 }
 
 .skillbar-title {
     color: black;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     display: inline-block;
@@ -62,8 +74,8 @@
 
 .skill-bar-percent {
     display: inline-block;
-    color: #323232;
-    font-size: 11px;
+    color: #212F3C;
+    font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -71,13 +83,15 @@
 /* CENTERING ONLY */
 
 .wrapper {
-    position: relative;
+    margin-top: 40%;
     top: 50%;
     left: 80%;
     transform: translateX(-50%) translateY(-50%);
 }
 
 .box{
+    top: 40%;
+    margin-top: 10px;
     margin: 0 auto;
     width: 90%;
     height: 90%;
@@ -88,3 +102,21 @@
  .contenedor_izquierdo{
      height:100%;
  }
+
+ #focus{
+    font-family: 'Raleway', sans-serif;
+    font-size:12em;
+    margin:0;
+    text-transform:uppercase;
+    color:transparent;
+    text-shadow:0 0 10px orange;
+    text-align:center;
+    letter-spacing:2px;
+    animation-name: focus;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+ }
+
+ /*zoom*/
